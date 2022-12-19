@@ -1,0 +1,8 @@
+* text=auto
+*.json eol=lf
+*.prisma eol=lf
+*.sql eol=lf
+*.toml eol=lf
+*.ts eol=lf
+/*.js linguist-detectable=false
+/.env.example linguist-detectable=false
