@@ -4,7 +4,7 @@ import { InMemoryNotificationsRepository } from '@test/repositories/in-memory-no
 import { CancelNotification } from './cancel-notification';
 import { NotificationNotFound } from './errors/notification-not-found';
 
-describe('Cancel Notification', () => {
+describe('Cancel notification', () => {
   it('should be able to cancel a notification', async () => {
     const notificationsRepository = new InMemoryNotificationsRepository();
     const cancelNotification = new CancelNotification(notificationsRepository);
