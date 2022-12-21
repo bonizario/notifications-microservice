@@ -1,5 +1,5 @@
-import { randomUUID } from 'node:crypto';
 import { Replace } from '@helpers/Replace';
+import { randomUUID } from 'node:crypto';
 import { Content } from './content';
 
 export interface NotificationProps {
@@ -57,6 +57,10 @@ export class Notification {
 
   public read() {
     this.props.readAt = new Date();
+  }
+
+  public unread() {
+    this.props.readAt = null;
   }
 
   public get readAt(): Date | undefined | null {
