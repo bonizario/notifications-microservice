@@ -40,7 +40,7 @@ using [Prisma](https://www.prisma.io/), a Typescript ORM.
     └── repositories
 ```
 
-## Instalation
+## Installation
 
 ```bash
 npm install
